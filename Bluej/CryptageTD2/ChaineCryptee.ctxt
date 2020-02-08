@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=ChaineCryptee
+comment0.text=\n\ D\u00E9crivez\ votre\ classe\ ChaineCryptee\ ici.\n\n\ @author\ (votre\ nom)\n\ @version\ (07/02/2020\ TD2)\n
+comment1.params=decalage\ chaineCrypte
+comment1.target=ChaineCryptee\ deCryptee(int,\ java.lang.String)
+comment2.params=decalage\ chaineClair
+comment2.target=ChaineCryptee\ deEnClair(int,\ java.lang.String)
+comment3.params=decalage\ chaine
+comment3.target=ChaineCryptee(int,\ java.lang.String)
+comment3.text=\n\ Constructeur\ d'objets\ de\ classe\ ChaineCryptee\n
+comment4.params=
+comment4.target=java.lang.String\ decrypte()
+comment4.text=\n\ M\u00E9thode\ qui\ permet\ de\ d\u00E9crypter\ un\ chaine\ de\ caract\u00E8re\n\n\ @return\ \ \ \ \ La\ chaine\ decrypt\u00E9\n
+comment5.params=c\ decalage
+comment5.target=char\ decaleCaractere(char,\ int)
+comment5.text=\n\ M\u00E9thode\ qui\ permet\ de\ de\ d\u00E9caler\ chaque\ caracter\ de\ la\ chaine\ de\ caratere\n\n\ @param\ c\ le\ caratere\ \u00E0\ d\u00E9caler\n\ @param\ decalage\ decalage\ du\ caractere\ \n\ @return\ \ \ \ \ La\ chaine\ decrypt\u00E9\n
+comment6.params=
+comment6.target=java.lang.String\ crypte()
+comment6.text=\n\ M\u00E9thode\ qui\ permet\ de\ crypter\ un\ chaine\ de\ caract\u00E8re\n\n\ @return\ \ \ \ \ La\ chaine\ crypt\u00E9\n
+numComments=7
