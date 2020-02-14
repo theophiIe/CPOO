@@ -1,42 +1,57 @@
 
 /**
- * Décrivez votre classe Client ici.
+ * classe Client
  *
- * @author (votre nom)
- * @version (un numéro de version ou une date)
+ * @version (14/02/2020)
  */
 public class Client
 {
     // variables d'instance - remplacez l'exemple qui suit par le vôtre
     private String nom;
-
+    private Serveur serveur;
+    
     /**
      * Constructeur d'objets de classe Client
+     * 
+     * @param nom String
      */
     public Client(String nom)
     {
         this.nom=nom;
     }
     
+    /**
+     * methode envoyer
+     *
+     * @param message String
+     */
     public void envoyer(String message)
     {
-        
-    }
-    
-    public void recevoir(String message)
-    {
-        
+        if(this.serveur != null) 
+        {
+            serveur.diffuser(message);
+        }
     }
     
     /**
-     * Un exemple de méthode - remplacez ce commentaire par le vôtre
+     * méthode recevoir
      *
-     * @param  y   le paramètre de la méthode
-     * @return     la somme de x et de y
+     * @param message String
      */
-    public boolean seConnecter()
+    public void recevoir(String message)
     {
-        // Insérez votre code ici
-        return true;
+        System.out.println(message);
+    }
+    
+    /**
+     * méthode seConnecter
+     *
+     * @return boolean 
+     * @param serveur Serveur
+     */
+    public boolean seConnecter(Serveur serveur)
+    {
+        this.serveur = serveur;
+        return serveur.connecter(this);
     }
 }

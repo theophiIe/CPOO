@@ -2,14 +2,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Décrivez votre classe Serveur ici.
+ * Classe Serveur
  *
- * @author (votre nom)
- * @version (un numéro de version ou une date)
+ * @version (14/02/2020)
  */
 public class Serveur
 {
-    // variables d'instance - remplacez l'exemple qui suit par le vôtre
+    //Liste des clients connectés au serveur
     private List<Client> user;
 
     /**
@@ -17,17 +16,20 @@ public class Serveur
      */
     public void Serveur()
     {
-        
+        this.user = new ArrayList<Client>();
     }
 
     public boolean connecter(Client client)
     {
-        user.add(client);
+        this.user.add(client);
         return true;
     }
     
     public void diffuser(String message)
     {
-    
+        for(int i=0; i < user.size(); i++)
+        {
+            user.get(i).recevoir(message);
+        }
     }
 }
