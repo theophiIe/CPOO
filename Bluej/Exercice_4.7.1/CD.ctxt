@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CD
+comment0.text=\n\ D\u00E9crivez\ votre\ classe\ CD\ ici.\n\n\ @author\ (votre\ nom)\n\ @version\ (28/02/2020)\n
+comment1.params=titre\ artiste\ nbrTitre
+comment1.target=CD(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\n\ Constructeur\ d'objets\ de\ classe\ CD\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ toString\ -\ permet\ d'avoir\ les\ informations\ d'un\ cd\n\n\ @return\ \ \ \ \ info\ d'un\ CD\n
+numComments=3

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DVD
+comment0.text=\n\ D\u00E9crivez\ votre\ classe\ DVD\ ici.\n\n\ @author\ (votre\ nom)\n\ @version\ (28/02/2020)\n
+comment1.params=titre\ realisateur\ sortie
+comment1.target=DVD(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\n\ Constructeur\ d'objets\ de\ classe\ DVD\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ Un\ exemple\ de\ m\u00E9thode\ -\ remplacez\ ce\ commentaire\ par\ le\ v\u00F4tre\n\n\ @param\ \ y\ \ \ le\ param\u00E8tre\ de\ la\ m\u00E9thode\n\ @return\ \ \ \ \ les\ informations\ \n
+numComments=3

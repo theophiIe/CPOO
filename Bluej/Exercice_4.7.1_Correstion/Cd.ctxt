@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Cd
+comment0.text=\n\ D\u00E9crivez\ votre\ classe\ Cd\ ici.\n\n\ @author\ (votre\ nom)\n\ @version\ (un\ num\u00E9ro\ de\ version\ ou\ une\ date)\n
+comment1.params=titre\ nom\ NbreTitres
+comment1.target=Cd(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\n\ Constructeur\ d'objets\ de\ classe\ Cd\n
+comment2.params=
+comment2.target=java.lang.String\ getnomArtiste()
+comment3.params=
+comment3.target=java.lang.String\ getTitre()
+comment4.params=
+comment4.target=int\ getNbreTitres()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

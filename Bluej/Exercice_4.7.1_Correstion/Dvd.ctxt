@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Dvd
+comment0.text=\n\ D\u00E9crivez\ votre\ classe\ Dvd\ ici.\n\n\ @author\ (votre\ nom)\n\ @version\ (un\ num\u00E9ro\ de\ version\ ou\ une\ date)\n
+comment1.params=titre\ real\ annee
+comment1.target=Dvd(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\n\ Constructeur\ d'objets\ de\ classe\ Dvd\n
+comment2.params=
+comment2.target=java.lang.String\ getRealisateur()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4
