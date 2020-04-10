@@ -1,3 +1,8 @@
+/**
+ * enum Operation
+ *
+ * @version (14/02/2020)
+ */
 public enum Operation
 {
 	PLUS('+')
@@ -44,10 +49,22 @@ public enum Operation
 
 	private	char symbole;
 
+	/**
+     * Constructeur d'objets de classe Operation
+     * 
+     * @param symbole char
+     */
 	Operation(char symbole)
 	{
 		this.symbole = symbole;
 	}
 
+	/**
+     * methode abstract eval
+     *
+     * @return double 
+     * @param val1 double
+     * @param val2 double
+     */
 	public abstract double eval(double val1, double val2);
 }

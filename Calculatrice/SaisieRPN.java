@@ -1,16 +1,27 @@
 import java.util.Scanner;
 
+/**
+ * classe SaisieRPN
+ *
+ * @version (11/04/2020)
+ */
 public class SaisieRPN
 {
 	private Scanner   sc;
 	private MoteurRPN moteur;
 
+	/**
+     * Constructeur d'objets de classe SaisieRPN
+     */
 	public SaisieRPN()
 	{
 		sc 	    = new Scanner(System.in);
 		moteur  = new MoteurRPN();
 	}
 
+	/**
+     * methode saisie recupere les saisies claviers
+     */
 	public void saisie()
 	{
 		if( sc.hasNextDouble() )
