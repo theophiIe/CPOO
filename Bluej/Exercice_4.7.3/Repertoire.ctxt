@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Repertoire
+comment0.text=\n\ D\u00E9crivez\ votre\ classe\ Repertoire\ ici.\n\n\ @author\ (votre\ nom)\n\ @version\ (un\ num\u00E9ro\ de\ version\ ou\ une\ date)\n
+comment1.params=nom
+comment1.target=Repertoire(java.lang.String)
+comment1.text=\n\ Constructeur\ d'objets\ de\ classe\ Repertoire\n
+comment2.params=fichier
+comment2.target=void\ Add(Fichier)
+comment2.text=\n\ Un\ exemple\ de\ m\u00E9thode\ -\ remplacez\ ce\ commentaire\ par\ le\ v\u00F4tre\n\n\ @param\ \ y\ \ \ le\ param\u00E8tre\ de\ la\ m\u00E9thode\n\ @return\ \ \ \ \ la\ somme\ de\ x\ et\ de\ y\n
+comment3.params=rep
+comment3.target=void\ Add(Repertoire)
+comment4.params=
+comment4.target=void\ TailleArborescence()
+comment5.params=
+comment5.target=void\ AfficheArborescence()
+numComments=6
