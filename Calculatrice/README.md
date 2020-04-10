@@ -1,6 +1,6 @@
-#Exercice Calculatrice
+# Exercice Calculatrice
 
-##Compliation et Execution
+## Compliation et Execution
 
 Pour la compilation du programme utiliser la commande du makefile : 
 ```
@@ -12,5 +12,5 @@ Pour l'execution du programme utiliser la commande du makefile :
 make run
 ```
 
-##Auteur 
+## Auteur 
 Théophile Molinatti 21707388
