@@ -7,7 +7,6 @@ import java.util.*;
  */
 public class Pile
 {
-	private int tailleMAX;
 	private int taille;
 	private Stack<Double> pile;
 	
@@ -16,7 +15,6 @@ public class Pile
      */
 	public Pile()
 	{
-		this.tailleMAX = 50;
 		this.pile 	   = new Stack<Double>();
 		this.taille    = 0;
 	}
@@ -49,18 +47,9 @@ public class Pile
      */
 	public int myPush(Double elem)
 	{
-		if(taille < tailleMAX)
-		{
-			pile.push(elem);
-			taille = taille + 1;
-			return taille;
-		}
-
-		else
-		{
-			System.out.println("Taille maximum de la pile atteinte");
-			return -1;
-		}
+		pile.push(elem);
+		taille = taille + 1;
+		return taille;
 	}
 
 	/**

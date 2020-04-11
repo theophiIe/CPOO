@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.lang.Math;
 /**
  * classe SaisieRPN
  *
@@ -26,8 +26,17 @@ public class SaisieRPN
 	{
 		if( sc.hasNextDouble() )
 		{
-			double elem = sc.nextDouble();
-			moteur.enregistrer(elem);
+			double MAX_VALUE = 1.79769313486231570e+308d;
+			double MIN_VALUE = 4.94065645841246544e-324d;
+			double elem      = sc.nextDouble();
+			
+			if(MAX_VALUE > Math.abs(elem) && MIN_VALUE < Math.abs(elem))
+				moteur.enregistrer(elem);
+
+			else
+			{
+				System.out.println("la valeur : " + elem + " n'est pas reconnue par la calculatrice");
+			}
 		}
 
 		else
