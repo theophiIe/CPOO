@@ -1,0 +1,12 @@
+10.19.6.1 mon.serveur.fr
+10.19.54.12 un.serveur.fr
+10.19.32.145 son.serveur.fr
+192.168.12.1 serveur.test.fr
+192.168.1.5 www.google.fr
+1.144.43.15 https.google.com
+192.23.0.1 www.e-campus.fr
+192.23.0.2 www.e-campus2.fr
+192.23.0.3 www.e-campus.com
+192.23.0.4 www.e-campus2.com
+180.17.109.2 http.moodle.com
+180.17.109.3 https.moodle.com
